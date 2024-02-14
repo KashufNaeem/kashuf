@@ -1,0 +1,51 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Homepage.aspx.cs" Inherits="WebApplication1.Homepage" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head id="Head1" runat="server">
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See More</title>
+</head>
+<body style="background-image: url('heading2.png'); height: 100%; width: 100%;">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="topbar" style="background-color: #000000; left: -2px; height: 60px;">
+      <h1 style="font-family: 'Courier New', Courier, monospace; font-weight: bold; font-style: normal; font-variant: normal; display: inline-block" >ESR: Eat, Sleep, Repeat...</h1>
+      <div style="background-color:black; border:solid 1px #333; float:left; text-align:center; padding:5px; float: right;vertical-align: top;
+margin-top: 10px;">
+      <input style="margin-top: 8px; margin-right: 16px; font-size: 17px;" type="text" placeholder="Search..">&nbsp;&nbsp;&nbsp;
+      <a href="myaccount.html"><i class="fa fa-user"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+   </div>
+    <br />
+    <br>
+<h1>Sign up</h1>
+<!--code for sign up form-->
+<div class="sin" style="text-align:center">
+  <form action="submit.html">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+    <label for="email">Email acc</label>
+    <input type="text" id="email" name="email" placeholder="name@gmail.com"><br>
+
+    <label for="City">City&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;</label>
+    <select id="City" name="City">
+      <option value="Lahore">Lahore</option>
+      <option value="Karachi">Karachi</option>
+      <option value="Islamabad">Islamabad</option>
+      <option value="Multan">Multan</option>
+    </select><br>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<br /><br /><br /><br /> <br /><br /><br /><br /> <br /><br /><br /><br />
+      <div class="footer">
+        <p>Mjhe bhook lagi hai...</p>
+    </div> 
+</body>
+</html>

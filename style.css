@@ -1,0 +1,219 @@
+.topbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color:white;
+}
+
+.slideshow-container {
+       
+            background-repeat: no-repeat; 
+            background-size: cover;
+            height: 100%
+    }
+
+* {
+  box-sizing: border-box;
+}
+
+
+.col {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.container::after {
+  content: box;
+  clear: both;
+  display: table;
+}
+
+
+.container {
+    height: 180px;
+}
+
+.col img {
+    width:auto;
+    height:160px;
+}
+
+.checked {
+  color: orange;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:purple;
+  color: white;
+  text-align: center;
+}
+
+.roundCorner {
+    height: 40px;
+    width: 130px;
+    color: white;
+    
+    text-align :center;
+    background-color: purple;
+    border-radius: 25px;
+    font-weight:bold; 
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 10px 10px 10px; 
+}
+a{
+  color: purple;
+  text-decoration: underline;
+}
+
+a:hover, a:active {
+    color: rgb(37, 165, 59);
+  }
+  table, th, td {
+    border:1px solid purple;
+    border-width: 2px;
+    line-height: 100px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+
+  }
+  .seemore{
+    text-shadow:white;
+    background-color: purple;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: underline;
+    display: flex;
+    border-radius: 25px;
+    padding: 20px; 
+    width: 150px;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -ms-transform: translate(-60%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .seemore:hover, .seemore:active {
+    color: rgb(37, 165, 59);
+  }
+  .topbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color:white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:purple;
+  color: white;
+  text-align: center;
+}
+
+.bg {
+    background-color:purple;
+    border-radius:20px;
+    height:80%;
+    width:80%;
+    
+    fit-position:center;
+    color:white;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    border-color:purple;
+}
+
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%; /* Set the width of the sidebar */
+  background-color: #f1f1f1; /* Grey background color */
+  padding: 20px; /* Some padding */
+  color:black;
+  font-size:24px;
+}
+
+/* Main column */
+.main {
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+  color:black;
+  text-align:left;
+  font-size:24px;
+}
+
+.roundCorner {
+    height: 40px;
+    width: 130px;
+    text-align :center;
+    background-color: white;
+    border-radius: 25px;
+    font-weight:bold; 
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 10px 10px 10px; 
+    color:purple;
+}
+
+#footerTxt {
+    font-family: "Courier New";
+    font: "Courier";
+}
+input[type=text], select {
+  width: 50%;
+  padding: 5px 20px;
+  margin: 8px 0;
+}
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.sin {
+  width: 50%;
+  margin-left: 30%;
+  margin-bottom: 0%;
+  height: 40%;
+  background-color: rgb(167, 55, 167);
+  opacity: 90%;
+  text-align: center;
+  padding: 0px 10px;
+}
